@@ -9,14 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chatscope/chat-ui-kit-react": "^1.10.1",
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
+    "plotly.js": "^2.20.0",
+    "plotly.js-dist-min": "^2.20.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-plotly.js": "^2.6.0",
+    "react-query": "^3.39.3",
+    "socket.io": "^4.6.1",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/plotly.js": "^2.12.18",
+    "@types/react-plotly.js": "^2.6.0",
+    "saas": "^1.0.0",
+    "sass": "^1.59.3"
   }
 }
